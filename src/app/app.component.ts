@@ -8,5 +8,6 @@ import * as customBuild from '../assets/ckeditor5/build/ckeditor';
 })
 export class AppComponent {
   title = 'project';
-public Editor = customBuild;
+public editor = customBuild;
+ckeditorContent: string = '';
 }
